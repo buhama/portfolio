@@ -4,6 +4,7 @@ html{
     scroll-behavior:smooth;
 }
 
+
 .header {
     letter-spacing: .02em;
     font-size: 16px;
@@ -28,3 +29,51 @@ html{
 .header li a {
     color: black;
 }
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+.portfolio{
+    padding-right:3vw;
+    padding-left:6vw;
+    padding-top:1vw;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.column{
+    float:left;
+    width:25%;
+    padding:5px;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+h1{
+    color:#011c74;
+    font-size:4rem;
+    margin-top:0px;
+    margin-bottom:-15px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.underline{
+    text-decoration: underline dotted blue;
+}
+
+p{
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:1.2rem;
+}
+
+
