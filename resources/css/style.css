@@ -76,4 +76,27 @@ p{
     font-size:1.2rem;
 }
 
+.CVUO{
+    margin-top:12rem;
+    margin-left:12rem;
+    margin-right:12rem;
+}
+
+.CVUO-Title{
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:1.5rem;
+}
+
+.CVUO-Title::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.CVUO-Title-Image{
+    margin-top:-20px;
+    margin-right:10px;
+    float:left;
+}
+
 
